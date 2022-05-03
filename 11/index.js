@@ -18,5 +18,5 @@ else if (rendaMensalEmCentavos < 200000) {
 }
 else {
     const valorParcela = (rendaMensalEmCentavos / 100) * 18 / 100;
-    console.log(`O valor da parcela desse mês é de R$ ${valorParcela.toFixed(2)}`);
+    console.log(`O valor da parcela desse mês é de R$ ${(valorParcela).toFixed(2)}`);
 }
